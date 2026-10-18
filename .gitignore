@@ -1,0 +1,23 @@
+# Build output
+build/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Market data: keep large/raw datasets out of Git
+data/*
+!data/.gitkeep
+
+# Compiled files
+*.o
+*.a
+*.so
+*.exe
